@@ -14,6 +14,11 @@ module.exports = {
       "required": true,
       "message": "Project name"
     },
+    "appName": {
+      "type": "string",
+      "required": true,
+      "message": "App name"
+    },
     "appid": {
       "type": "string",
       "required": false,
@@ -63,11 +68,6 @@ module.exports = {
           "name": "Standard (https://github.com/feross/standard)",
           "value": "standard",
           "short": "Standard"
-        },
-        {
-          "name": "Airbnb (https://github.com/airbnb/javascript)",
-          "value": "airbnb",
-          "short": "Airbnb"
         },
         {
           "name": "none (configure it yourself)",
